@@ -19,6 +19,7 @@
 html, body {
     margin: 0; 
     font-family: 'Karla', sans-serif;
+    background-color: linear-gradient(to bottom, rgb(10, 10, 50) 0%,rgb(60, 10, 60) 100%);
 }
 
 .navbar {
