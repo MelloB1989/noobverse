@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;700&display=swap" rel="stylesheet">
+    <title>NoobsLearning</title>
+</head>
+
+<body>
+    <canvas id="particle-canvas"></canvas>
+    <section class="intro gradient-background">
+        <div class="navbar">
+            <img src="assets/logo_noobs_text.png" alt="">
+        </div>
+        <div class="container col-lg-10 px-4">
+            <div class="row flex-lg-row-reverse align-items-center pt-5 hero">
+                <div class="col-10 col-sm-8 col-lg-7">
+                    <img src="./assets/boy-playing-game-in-metaverse-5308393-4431965.png"
+                        class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
+                </div>
+                <div class="col-lg-5">
+                    <h1 class="display-5 fw-bold text-white lh-1 mb-3">NoobsLearning Workshop
+                        <p class=" pt-4 fs-3 description fw-light"> Code Anywhere, Anytime: Empower Your Skills with
+                            Mobile Coding <br><br><span style="font-style: italic;">(With Noobverse!)</span>
+                        </p>
+                    </h1>
+                    <button class="button my-5">
+                        Register
+                    </button>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="highlights">
+        <div class="container px-4 highlights-container" id="hanging-icons">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="container-image">
+                    <div class="card card-cover mb-5 overflow-hidden text-bg-dark rounded-4 shadow-lg brrr">
+                        <img class="meta-img" src="assets/metaverse.jpeg" alt="">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="meta-text display-6 lh-1 fw-bold px-3">This workshop will be conducted in
+                                metaverse!
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="rgb(255, 85, 0)"
+                            class="bi bi-terminal" viewBox="0 0 16 16">
+                            <path
+                                d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.854 4.146a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z" />
+                            <path
+                                d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 orange-text">Termux</h3>
+                        <p>With Termux, you can perform various tasks, including running shell scripts, compiling code,
+                            accessing remote servers via SSH, managing files and directories, and much more. <br><br> It
+                            essentially brings the capabilities of a Linux environment to your smartphone or tablet,
+                            allowing you to perform advanced tasks and customization beyond what is typically available
+                            through regular Android apps.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square orange-text d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-cloud"
+                            viewBox="0 0 16 16">
+                            <rect width="100%" height="100%" fill="transparent" />
+                            <path
+                                d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 orange-text">Cloud Computing</h3>
+                        <p>Cloud computing offers numerous benefits, including increased flexibility, scalability, cost
+                            savings, and the ability to access and collaborate on data and applications remotely. It has
+                            transformed the way organizations and individuals store, process, and manage their data,
+                            leading to greater efficiency and innovation in various fields such as business, technology,
+                            research, and more.</p>
+                    </div>
+                </div>
+
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square orange-text d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-pc-display"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V1Zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0Zm2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0ZM9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5ZM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5ZM1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2H1.5Z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 orange-text">SSH</h3>
+                        <p>SSH (Secure Shell) and is a network protocol that provides a secure way to access
+                            and manage remote computers or servers over an unsecured network. It establishes a secure
+                            encrypted connection between a client and a server, allowing for secure remote login and
+                            secure data communication. <br><br>With SSH, users can securely access and control remote
+                            systems, execute commands, transfer files, and perform various administrative tasks. It
+                            ensures the confidentiality and integrity of data by encrypting all communication between
+                            the client and server, preventing unauthorized users from intercepting or tampering with the
+                            transmitted information.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square orange-text d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor"
+                            class="bi bi-pc-horizontal" viewBox="0 0 16 16">
+                            <path
+                                d="M1 6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H1Zm11.5 1a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1Zm2 0a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1ZM1 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5ZM1.25 9h5.5a.25.25 0 0 1 0 .5h-5.5a.25.25 0 0 1 0-.5Z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 orange-text">VNC</h3>
+                        <p>VNC, which stands for Virtual Network Computing, is a graphical desktop-sharing system that
+                            allows remote access and control of a computer's graphical user interface (GUI). With VNC,
+                            users can connect to and interact with a remote computer as if they were sitting in front of
+                            it. <br><br>VNC is commonly used for remote technical support, remote collaboration, and
+                            remote administration of computers. It provides a convenient way to access and control a
+                            remote computer from a different location, allowing users to troubleshoot issues, provide
+                            assistance, or work on a remote machine as if they were physically present.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div
+                        class="icon-square orange-text  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor"
+                            class="bi bi-pc-horizontal" viewBox="0 0 16 16">
+                            <path
+                                d="M1 6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H1Zm11.5 1a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1Zm2 0a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1ZM1 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5ZM1.25 9h5.5a.25.25 0 0 1 0 .5h-5.5a.25.25 0 0 1 0-.5Z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="fs-2 orange-text">RDP</h3>
+                        <p>RDP (Remote Desktop Protocol), and it is a proprietary protocol developed by
+                            Microsoft for remote access and control of Windows-based computers over a network. RDP
+                            allows a user to connect to a remote Windows machine and interact with its graphical desktop
+                            as if they were physically present at the computer. <br><br>RDP provides a rich and seamless
+                            remote desktop experience, allowing users to perform tasks, run applications, and access
+                            files on the remote computer. It supports features like file transfer, clipboard sharing,
+                            audio redirection, printer redirection, and more, making it a versatile solution for remote
+                            access and collaboration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
