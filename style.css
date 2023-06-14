@@ -118,6 +118,7 @@ html, body {
 .highlights-container {
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.176);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -145,6 +146,7 @@ html, body {
     .highlights-container {
         background-color: rgba(0, 0, 0, 0);
         border-radius: 0;
+        -webkit-backdrop-filter: blur(7px);
         backdrop-filter: blur(7px);
     }
 
